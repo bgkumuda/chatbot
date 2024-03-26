@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 import openai
 
-#openai.api_key = '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' #kumuda
-openai.api_key = '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' # supreeth
-#openai.api_key = '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' #Suhas
+#openai.api_key = '' #kumuda
+openai.api_key = '' # supreeth
+#openai.api_key = '' #Suhas
 
 st.title("Chatbot : ChatGPT and Streamlit Chat")
 st.subheader("AI Tutor:")
